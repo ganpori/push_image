@@ -221,7 +221,21 @@ files = [
 [package.extras]
 cli = ["click (>=5.0)"]
 
+[[package]]
+name = "scp"
+version = "0.14.5"
+description = "scp module for paramiko"
+optional = false
+python-versions = "*"
+files = [
+    {file = "scp-0.14.5-py2.py3-none-any.whl", hash = "sha256:d224535dd8ed00294f52b0e0e18fde7a6fb7a3d06b97ede9e3f750fa7bf75c09"},
+    {file = "scp-0.14.5.tar.gz", hash = "sha256:64f0015899b3d212cb8088e7d40ebaf0686889ff0e243d5c1242efe8b50f053e"},
+]
+
+[package.dependencies]
+paramiko = "*"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "32a12f2b2399f27713e6e409ba551d976f9f3de7d297a880195f27730e82be4e"
+content-hash = "9d0351e9c4793ec4c644a55eb20cd2bcc2102fa4ded611fa7e474dcd4e930e8a"
